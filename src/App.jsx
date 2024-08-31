@@ -1,6 +1,7 @@
 import Hero from "./components/Hero/Hero";
 import Navbar from "./components/Navbar/Navbar";
 import BgImg from "../src/assets/bg.png"
+import Equipments from "./components/Equipments/Equipments";
 
 const bgStyle = {
   backgroundImage: `url(${BgImg})`,
@@ -17,6 +18,7 @@ const App = () => {
         <Navbar/>
         <Hero/>
       </div>
+      <Equipments/>
     </div>
   );
 };
