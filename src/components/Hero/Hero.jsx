@@ -41,7 +41,7 @@ const Hero = () => {
                     variants={SlideLeft(0.4)}
                     initial="hidden"
                     animate="visible"
-                    src={HeroImg} alt="" className="w-[350px] md:[550px] xl:w-[700px] drop-shadow" />
+                    src={HeroImg} alt="Hero" className="w-[350px] md:[550px] xl:w-[700px] drop-shadow" />
                 </div>
             </div>
         </section>
