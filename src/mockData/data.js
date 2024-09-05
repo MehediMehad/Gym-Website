@@ -1,7 +1,10 @@
-import Image1 from "../assets/tabs/1.png";
-import Image2 from "../assets/tabs/2.png";
-import Image3 from "../assets/tabs/3.png";
-import Image4 from "../assets/tabs/4.png";
+import Image1 from "../assets/tabs/8.webp";
+import Image2 from "../assets/tabs/5.jpg";
+import Image3 from "../assets/tabs/6.jpg";
+import Image5 from "../assets/tabs/9.webp";
+import Image6 from "../assets/tabs/10.jpg";
+import Image7 from "../assets/tabs/11.jpg";
+import Image8 from "../assets/tabs/12.jpg";
 
 export const NavbarMenu = [
   { id: 1, title: "Home", link: "/" },
@@ -23,7 +26,7 @@ export const ProductsData = [
   {
     id: 2,
     category: "Fitness",
-    image: Image1,
+    image: Image2,
     title: "Dumbbells Set",
     info: "Set of adjustable dumbbells for weight training",
     price: "$120",
@@ -31,7 +34,7 @@ export const ProductsData = [
   {
     id: 3,
     category: "Yoga",
-    image: Image1,
+    image: Image3,
     title: "Yoga Block",
     info: "Durable yoga block for support during poses",
     price: "$15",
@@ -39,7 +42,7 @@ export const ProductsData = [
   {
     id: 4,
     category: "Fitness",
-    image: Image1,
+    image: Image5,
     title: "Resistance Bands",
     info: "Set of resistance bands for full-body workout",
     price: "$30",
@@ -47,7 +50,7 @@ export const ProductsData = [
   {
     id: 5,
     category: "Muscles",
-    image: Image1,
+    image: Image6,
     title: "Protein Powder",
     info: "High-quality whey protein powder for muscle gain",
     price: "$80",
@@ -55,7 +58,7 @@ export const ProductsData = [
   {
     id: 6,
     category: "Muscles",
-    image: Image1,
+    image: Image7,
     title: "Kettlebell",
     info: "20kg kettlebell for strength training",
     price: "$70",
@@ -63,7 +66,7 @@ export const ProductsData = [
   {
     id: 7,
     category: "Yoga",
-    image: Image1,
+    image: Image8,
     title: "Yoga Strap",
     info: "Adjustable yoga strap for deepening stretches",
     price: "$10",
