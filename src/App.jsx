@@ -9,6 +9,7 @@ import Img2 from "./assets/3.png"
 import TabComp from "./components/Tab/TabComp";
 import Testimonials from "./components/Testimonials/Testimonials";
 import Banner2 from "./components/Banner/Banner2";
+import Footer from "./components/Footer/Footer";
 
 const BannerData = {
   image:Img1,
@@ -44,6 +45,7 @@ const App = () => {
       <Banner {...Banner2Data}/>
       <Testimonials/>
       <Banner2/>
+      <Footer/>
     </div>
   );
 };
